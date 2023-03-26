@@ -8,8 +8,9 @@
 \usepackage{lipsum}
 
 \usepackage{enumitem}
-
 \setlist{nosep}
+
+\usepackage[numbers]{natbib}
 
 \begin{document}
 	
@@ -24,4 +25,8 @@
 	\input{items/kevin_python.tex} \sectionline
 	\input{items/tobi_java.tex} \sectionline
 	\input{items/final_thoughts.tex} \sectionline
+	
+	\bibliographystyle{IEEEtranN}
+	\bibliography{BIBLIOGRAPHY.bib}
+	
 \end{document}
