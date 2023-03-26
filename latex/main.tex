@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage[legalpaper, margin=1in]{geometry}
+\usepackage{titlesec}
+\pagestyle{myheadings}
+\setcounter{secnumdepth}{0}
+
+\usepackage[skip=\glueexpr \baselineskip + 0pt plus 2pt\relax]{parskip}
+\usepackage{lipsum}
+
+\usepackage{enumitem}
+
+\setlist{nosep}
+
+\begin{document}
+	
+	\input{items/modifiers.tex}
+	
+	\input{items/front_matter.tex} \sectionline
+	\input{items/introduction.tex} \sectionline
+	
+	\input{items/introductory_pages.tex} \sectionline
+	\input{items/abby_R.tex} \sectionline
+	\input{items/ayush_CPP.tex} \sectionline
+	\input{items/kevin_python.tex} \sectionline
+	\input{items/tobi_java.tex} \sectionline
+	\input{items/final_thoughts.tex} \sectionline
+\end{document}
